@@ -1,0 +1,31 @@
+{
+  "name": "gitclick-util",
+  "version": "0.0.1",
+  "main": "lib/gitclick-util.js",
+  "description": "Utilities module for gitclick plugins.",
+  "keywords": [
+    "gitclick"
+  ],
+  "homepage": "https://github.com/maximilianschmitt/gitclick-util",
+  "bugs": "https://github.com/maximilianschmitt/gitclick-util/issues",
+  "license": "MIT",
+  "author": {
+    "name": "Maximilian Schmitt",
+    "email": "maximilian.schmitt@googlemail.com",
+    "url": "http://maximilianschmitt.me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maximilianschmitt/gitclick-util.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "create-error": "^0.3.1",
+    "underscore": "^1.6.0"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1"
+  }
+}
